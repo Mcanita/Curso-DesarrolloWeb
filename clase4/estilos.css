@@ -1,0 +1,38 @@
+
+/* Selector universal*/
+*{box-sizing:border-box;}
+
+/* Selector de Etiqueta */
+body{ 
+    background-color: darkred;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* selector grupal */
+ body, nav, header, main, footer{width: 100%; box-sizing:border-box ;}
+nav{
+   
+    height: 60px;
+    background-color: black;
+}
+
+header{
+    height: 60px;
+    background-color: darkmagenta;
+}
+
+main{
+    height: 800px;
+    background-color: blueviolet;
+    padding: 30px;
+}
+
+h1{
+    margin-top: 0;
+}
+
+footer{
+    height: 700px;
+    background-color: brown;
+}
