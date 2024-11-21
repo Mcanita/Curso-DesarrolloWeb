@@ -1,0 +1,29 @@
+@import url('hyyps://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+*{box-sizing: border-box;}
+
+/* WhatsApp*/
+#ws{
+    width: 55px;
+    position: absolute;
+    right: 60px;
+    bottom: 50px;
+    z-index: 100;
+    position: fixed;
+    cursor: pointer;
+}
+
+#ws img{width: 100%;}
+
+html{scroll-behavior: smooth;}
+
+body, nav, header, main, #containerUno, #containerDos, #containerTres, footer, #copyAutor{width: 100%;}
+h1, h2, h3, h4, h5, h6{font-size: 28px;margin-top: 0;color: #fff;text-align: center;}
+h1{font-size: 40px;}
+
+body{
+    background-color: #030303;
+    margin: 0 auto;
+    max-width: 1920px;
+    font-family: 'Alatsi', sans-serif;
+}
