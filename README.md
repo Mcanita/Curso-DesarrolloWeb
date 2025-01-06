@@ -7,7 +7,13 @@ Este repositorio contiene los ejercicios y el proyecto final del curso de Desarr
   - Generación de texto automático con herramientas como `lorem`.
   - Creación de párrafos y textos explicativos.
 
-  ## 🛠️ Tecnologías utilizadas
+- **Clase 2:** Avance en HTML:
+  - Creación de listas ordenadas y desordenadas con atributos personalizados (`type`, `start`).
+  - Uso de entidades HTML como `&copy;` (símbolo de copyright) y `&nbsp;` (espacios).
+  - Implementación de etiquetas semánticas como `<strong>`, `<b>`, `<i>`, y `<mark>`.
+  - Introducción de líneas horizontales (`<hr>`).
+
+## 🛠️ Tecnologías utilizadas
 - **HTML5**: Para la estructura de las páginas web.  
 - **CSS3**: Para el diseño y los estilos.  
 
