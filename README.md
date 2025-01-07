@@ -22,6 +22,13 @@ Este repositorio contiene los ejercicios y el proyecto final del curso de Desarr
     - En línea: Aplicación directa dentro del atributo `style`.
   - Organización semántica con elementos como `header`, `nav`, `main`, y `footer`.
 
+  - **Clase 4:** Diseño estructurado con CSS:
+  - Aplicación del **selector universal** (`*`) para un diseño uniforme.
+  - Uso de **selectores grupales** para reglas comunes entre elementos.
+  - Estructuración de secciones (`nav`, `header`, `main`, `footer`) con estilos diferenciados:
+    - Altura, colores de fondo y padding.
+  - Consolidación de la estructura semántica con CSS externo.
+
 ## 🛠️ Tecnologías utilizadas
 - **HTML5**: Para la estructura de las páginas web.  
 - **CSS3**: Para el diseño y los estilos.  
