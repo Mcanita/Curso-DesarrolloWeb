@@ -13,6 +13,15 @@ Este repositorio contiene los ejercicios y el proyecto final del curso de Desarr
   - Implementación de etiquetas semánticas como `<strong>`, `<b>`, `<i>`, y `<mark>`.
   - Introducción de líneas horizontales (`<hr>`).
 
+- **Clase 3:** Bloques, estilos y estructura:
+  - Diferencias entre etiquetas **block** y **inline**.
+  - Uso de imágenes con atributos `src`, `alt`, `title`, y `width`.
+  - Introducción a los estilos CSS:
+    - Externos: Uso de una hoja de estilos (`estilos.css`).
+    - Internos: Inclusión de estilos en el `<head>` del documento HTML.
+    - En línea: Aplicación directa dentro del atributo `style`.
+  - Organización semántica con elementos como `header`, `nav`, `main`, y `footer`.
+
 ## 🛠️ Tecnologías utilizadas
 - **HTML5**: Para la estructura de las páginas web.  
 - **CSS3**: Para el diseño y los estilos.  
