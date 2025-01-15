@@ -1,0 +1,130 @@
+/* Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap'); */
+
+/* Selector Universal */
+*{box-sizing: border-box;}
+
+/* Selector de Etiqueta */
+body{
+    background-color: white;
+    font-family: "Alatsi", sans-serif;
+    height: auto;
+    margin: 0;
+}
+
+/* Selector Grupal */
+body, nav, header, main, footer{width: 100%;}
+
+nav{
+    height: 60px;
+    background-color: black;
+}
+
+header{
+    height: 400px;
+    padding-top: 100px;
+    background-color: darkmagenta;
+}
+
+h1{margin-top:0; text-align: center; color: white; font-size: 45px;}
+
+main{
+    height: auto;
+    padding: 30px;
+}
+
+span{
+    background-color: darkmagenta;
+    color: white;
+    padding: 1px 8px;
+    border-radius: 8px;
+}
+
+div{
+    width: 150px;
+    height: 40px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    background-color: #5b2c6f;
+    margin-bottom: 30px;
+}
+
+/* Selector Descendente */
+div p{
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+
+#vinculoUno{
+    width: 150px;
+    display: block;
+}
+
+/* 
+Colores en la Web
+1- Ingles - 140 y 144 nombres de colores.
+2- RGB / RGBA - Red, Green, Blue.
+3- Hexadecimal - RGB
+
+------
+
+RGB - Roja - Verde - Azul
+Mínimo: 0
+Máximo: 255
+Sintáxis: rgb(255, 0, 0); - rgba(0, 0, 255, 0.5);
+
+------
+
+Hexadecimales - RGB
+Mínimo: 0
+Máximo: f
+Síntaxis: #00ff00;
+
+*/
+
+
+/* Pseudo Clases (Vinculos) */
+/* a:link{
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+    text-decoration: none;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: none;
+} */
+
+a{
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+.sinSub{text-decoration: none !important;}
+
+span:hover, div:hover{background-color: deeppink;}
+
+/* Jerarquías */
+/* #aidi{background-color: aqua;}
+
+.clase{
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: blueviolet;
+} */
+
+footer{
+    height: 700px;
+    background-color: darkslategrey;
+}
