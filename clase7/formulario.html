@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <!-- Estilos CSS Externos -->
+    <link rel="stylesheet" href="form.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav></nav>
+    <header></header>
+
+    <main>
+        <h1>Formulario</h1>
+        <form action="" method="post" autocomplete="on" >
+            <label for="">Nombre y Apellido:</label>
+            <input type="text" name="nombrecompleto" id="nyp" >
+
+            <label for="">Domicilio
+                <input type="text" name="calle" placeholder="Calle + Número + Provincia" >
+            </label>
+
+            <label for="">Puesto laboral solicitado:</label>
+            <input type="text" name="dev" value="Desarrollador web" required>
+
+            <label for="">Puesto laboral solicitado:</label>
+            <input type="text" name="dev" value="Desarrollador web" readonly>
+
+            <label for="">Puesto laboral solicitado:</label>
+            <input type="text" name="dev" value="Desarrollador web" disabled>
+
+            <label for="">Contraseña:</label>
+            <input type="password" name="clave" required>
+
+            <label for="">Teléfono:</label>
+            <input type="tel" name="telefono" placeholder="Ejemplo: (011) 444-1234" maxlength="25">
+
+        </form>
+       
+    </main>
+
+    <footer></footer>    
+</body>
+</html>

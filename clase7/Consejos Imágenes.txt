@@ -1,0 +1,21 @@
+1. Tamaño físico (dimensiones)
+Imágenes de fondo: Idealmente entre 1200 px y 1920 px de ancho. Para pantallas de alta resolución podrías ir hasta 2500 px, pero solo si es necesario.
+Imágenes en carrusel o banner: Aproximadamente 1200 px a 1600 px de ancho.
+Imágenes de productos: Entre 500 px y 800 px de ancho, dependiendo de cuánto detalle necesites mostrar.
+Miniaturas y pequeñas: Entre 150 px y 300 px de ancho. Esto aplica a las previews o imágenes en galería que tienen una versión más grande al hacer clic.
+2. Peso de archivo
+Imágenes de fondo grandes: Idealmente entre 150 KB y 300 KB. Si necesitas calidad superior, intenta no superar los 500 KB.
+Imágenes de productos o detalles: Entre 70 KB y 150 KB es una buena medida.
+Miniaturas: No deberían superar los 50 KB.
+3. Formato de imagen
+JPEG: Ideal para fotos y fondos; es eficiente en calidad y peso.
+PNG: Úsalo para gráficos con fondo transparente o detalles de líneas.
+WebP: Muy recomendado porque suele pesar un 30% menos que JPEG y PNG, con la misma calidad visual.
+SVG: Útil para logos e iconos, ya que es un formato vectorial que no pierde calidad al escalar y tiene un peso bajo.
+4. Compresión
+Compresión manual: Herramientas como Photoshop o GIMP te permiten ajustar la calidad manualmente; una calidad entre 60-80% en JPEG suele dar un buen balance.
+Compresión automatizada: Usá herramientas como TinyPNG, ImageOptim o Squoosh. Te ayudan a reducir el peso sin perder calidad visual significativa.
+5. Responsive y Retina Display
+Para pantallas de alta resolución (Retina), creá dos versiones de cada imagen: una estándar y otra al doble de resolución.
+Usá el atributo srcset en el HTML para que el navegador elija la versión adecuada.
+Estas prácticas ayudan a mantener una web rápida y liviana, mejorando la experiencia de usuario y el SEO. ¿Te resultan útiles estos valores, o necesitas ajustar algo específico para tu proyecto?
