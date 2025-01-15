@@ -59,7 +59,7 @@ Este repositorio contiene los ejercicios y el proyecto final del curso de Desarr
 
 #### **🌐 Ver el proyecto en vivo**
 Accede a la versión en vivo del proyecto en GitHub Pages:  
-[Game Over - Aventuras sin límite](https://<tu-usuario>.github.io/<nombre-del-repositorio>/)
+[Game Over - Aventuras sin límite](https://mcanita.github.io/Curso-DesarrolloWeb/)
 
 
 ## 🛠️ Tecnologías utilizadas
