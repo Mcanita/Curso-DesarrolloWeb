@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <!-- Estilos CSS Externos -->
+    <link rel="stylesheet" href="form.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav></nav>
+    <header></header>
+
+    <main>
+        <h1>Formulario</h1>
+
+        <form action="php/enviar-ok.php" method="post" autocomplete="on">
+            <label for="nyp">Nombre y Apellido:</label>
+            <input type="text" name="nombrecompleto" id="nyp">
+
+            <label for="">Domicilio:
+                <input type="text" name="calle" placeholder="Calle + Número + Localidad + Provincia">
+            </label>
+
+            <label for="">E-mail:</label>
+            <input type="email" name="correo" required>
+
+            <label for="">Teléfono:</label>
+            <input type="tel" name="telefono" placeholder="Ejemplo: (011) 4444-1234" maxlength="25">
+
+            <label for="msj">Escriba un Mensaje:</label>
+            <textarea name="mensaje" id="msj" required maxlength="1000"></textarea>
+
+            <input type="submit" value="ENVIAR MENSAJE">
+
+            <!--<button type="submit">ENVIAR MENSAJE</button>
+            <input type="reset" value="BORRAME"> -->
+
+
+        </form>
+
+       
+    </main>
+
+    <footer></footer>    
+</body>
+</html>
